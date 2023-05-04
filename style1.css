@@ -1,0 +1,52 @@
+.button{
+    width: 60px;
+    padding: 15px;
+    margin: -1px 3px;
+    border: 2px solid lightslategrey;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover{
+    opacity: 0.8;
+}
+.button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0 ;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.container{
+    border:2px solid black;
+    margin: 70px auto;
+    padding: 15px 5px;
+    width: 25%;
+    border-radius: 28px;
+    background-color: rgb(150, 148, 156);
+}
+#enter{
+    width: 204px;
+    background-color: lightgreen;
+}
+#delete{
+    background-color: rgb(247, 120, 120);
+}
+#AC{
+    background-color:orange;
+}
+.btn{
+    background-color: rgb(150, 150, 207);
+}
